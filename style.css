@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f3f8;
+  font-family: "Allerta", sans-serif;
+}
+
+/* Navbar */
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 80px 0 80px;
+}
+
+#navFirst img {
+  height: 30px;
+}
+
+#navMid {
+  display: flex;
+}
+
+#navMid div {
+  margin: 0 40px;
+}
+
+#navMid div:first-of-type {
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#navMid div:hover {
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#navEnd {
+  display: flex;
+}
+
+#navEnd div {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+
+#midWhole {
+  display: flex;
+}
+
+#midWholePart1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 80px;
+}
+
+/* #midWholePart11 div ul > ::marker{
+    color: #000;
+    content: "◉";
+    content: "●";
+    font-size: 20px;
+} */
+
+#midWholePart11 div ul li {
+  padding-left: 1em;
+}
+
+#monstera {
+  font-size: 80px;
+}
+
+#midWholePart11 div ul li:nth-of-type(3) {
+  width: 55%;
+  margin-bottom: 5px;
+}
+
+#midWholePart11 div ul li:nth-of-type(4) {
+  width: 55%;
+}
+
+#midWholePart121 {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  background-color: #466d50;
+  color: #fff;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+#midWholePart122 {
+  align-self: center;
+  padding-top: 6px;
+}
+
+#midWholePart122 img {
+  height: 20px;
+  margin-left: 10px;
+}
+
+#midWholePart13 {
+  display: flex;
+}
+
+.midWholePart13Parts {
+  display: flex;
+}
+
+.midWholePart13Parts div:first-of-type {
+  margin-right: 10px;
+}
+
+.midWholePart13Parts div:last-of-type h4 {
+  font-size: 20px;
+}
+
+.midWholePart13Parts div:last-of-type p {
+  font-size: 10px;
+  width: 70%;
+}
+
+#imgMain {
+  width: 100%;
+  height: 92%;
+}
