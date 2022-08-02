@@ -59,6 +59,7 @@ body {
 
 #midWhole {
   display: flex;
+  justify-content: space-between;
 }
 
 #midWholePart1 {
@@ -66,6 +67,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 80px;
+  flex-basis: 50%;
 }
 
 /* #midWholePart11 div ul > ::marker{
@@ -134,7 +136,249 @@ body {
   width: 70%;
 }
 
+#midWholePart2{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
 #imgMain {
   width: 100%;
-  height: 92%;
+  height: 100%;
+  object-fit: cover;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 480px) {
+  #navbarMonstera {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 5px 5px;
+  }
+  #navbarMonstera {
+    margin: 5px 5px
+  }
+
+  #navMid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #navMid div {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+
+  #navEnd div {
+    margin: 0 10px;
+    margin-top: 10px;
+  }
+
+  #midWhole{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #midWholePart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    flex-basis: 50%;
+  }
+
+  #monstera{
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  #midWholePart11 ul{
+    list-style: none;
+  }
+
+  #midWholePart11 div ul li:nth-of-type(3) {
+    width: auto;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  
+  #midWholePart11 div ul li:nth-of-type(4) {
+    width: auto;
+    font-size: 10px;
+  }
+
+  #midWholePart121 {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 10px;
+    margin: 20px 0;
+  }
+
+  .midWholePart13Parts div:first-of-type {
+    margin-right: 10px;
+  }
+
+  #feeding{
+    height: 20px;
+  }
+  
+  .midWholePart13Parts div:last-of-type h4 {
+    font-size: 7px;
+  }
+
+  #light{
+    height: 20px;
+  }
+  
+  .midWholePart13Parts div:last-of-type p {
+    font-size: 7px;
+    width: auto;
+  }
+
+  #care{
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+  #navbarMonstera {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px 10px
+  }
+
+  #navMid div {
+    margin: 0 10px;
+  }
+
+  #navEnd div {
+    margin: 0 10px;
+  }
+
+  #monstera {
+    font-size: 30px;
+  }
+
+  #midWholePart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    flex-basis: 80%;
+  }
+
+  #midWholePart11 ul{
+    list-style: none;
+  }
+
+  #midWholePart11 div ul li:nth-of-type(3) {
+    width: 65%;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  
+  #midWholePart11 div ul li:nth-of-type(4) {
+    width: 65%;
+    font-size: 10px;
+  }
+
+  #midWholePart121 {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .midWholePart13Parts div:first-of-type {
+    margin-right: 10px;
+  }
+
+  #feeding{
+    height: 30px;
+  }
+  
+  .midWholePart13Parts div:last-of-type h4 {
+    font-size: 10px;
+  }
+
+  #light{
+    height: 20px;
+  }
+  
+  .midWholePart13Parts div:last-of-type p {
+    font-size: 7px;
+    width: auto;
+  }
+
+  #care{
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #navbarMonstera {
+    margin: 20px 30px 0 30px;
+  }
+
+  #navMid div {
+    margin: 0 20px;
+  }
+
+  #navEnd div {
+    margin: 0 15px;
+  }
+
+  #monstera {
+    font-size: 50px;
+  }
+
+  #midWholePart11 div ul li:nth-of-type(3) {
+    width: 85%;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  #midWholePart11 div ul li:nth-of-type(4) {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  #midWholePart121 {
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .midWholePart13Parts div:first-of-type {
+    margin-right: 10px;
+  }
+
+  #feeding{
+    height: 50px;
+    /* width: 100%; */
+  }
+  
+  .midWholePart13Parts div:last-of-type h4 {
+    font-size: 20px;
+  }
+
+  #light{
+    height: 40px;
+  }
+  
+  .midWholePart13Parts div:last-of-type p {
+    font-size: 10px;
+    width: auto;
+  }
+
+  #care{
+    height: 40px;
+  }
+  
+}
+
